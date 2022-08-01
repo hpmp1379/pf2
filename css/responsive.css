@@ -1,0 +1,22 @@
+@media screen and (max-width:768px) {
+  header{
+  position: absolute;
+  width: 100%;
+  /*! height: 100%; */
+  left: 0;
+  top: 0;
+  }
+  header div.inner{
+  flex-direction: initial;
+  padding-left: 20px;
+  padding-right: 20px;
+  }
+  header div.inner ul.gnb,
+  header div.inner ul.tnb{
+    display: none;
+  }
+  header div.inner ul.enb{
+    
+  position: static;
+  }
+}
